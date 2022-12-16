@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eef2ff;
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.block {
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #e3e3e3;
+  box-shadow: 1px 0px 8px 4px rgb(0 161 216 / 58%);
+}
+
+.semicircle {
+  width: 500px;
+  height: 500px;
+  clip-path: ellipse(50% 50% at 18% 19%);
+  background-color: #1b7e4a;
+}
+
+.triangle {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 155px;
+  height: 180px;
+  background-color: #cd3535;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.circle {
+  position: absolute;
+  top: 33%;
+  width: 155px;
+  height: 155px;
+  background-color: #249961;
+  right: 21%;
+  border-radius: 50%;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: #2b2bed !important;
+  top: 37%;
+  right: 38%;
+  left: 11%;
+  width: 470px;
+  height: 77px;
+  -webkit-transform: skew(5deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: red;
+  transform: rotate(45deg);
+}
+
+.superellipse {
+  width: 475px;
+  height: 122px;
+  background-color: #8a00c9;
+  border-radius: 48px;
+  position: absolute;
+  top: 65%;
+  left: 12%;
+}
+
+/* .rectangle {
+  position: absolute;
+  height: 550px;
+  width: 388px;
+  background-color: blue;
+  top: 4%;
+  right: 26%;
+  clip-path: polygon(13% 5%, 96% 67%, 74% 67%, 2% 13%);
+} */
+
+/* clip-path: inset(0% round 0 78% 83% 0% / 294% 700px 0% 391%); */
